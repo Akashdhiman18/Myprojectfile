@@ -93,16 +93,6 @@ DATABASES = {
     }
 }
 '''
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'todosdbdev',
-        'USER': 'postgres',
-        'PASSWORD': 'dhiman223',
-        'HOST': 'localhost',
-        'PORT':'5432',
-    },
-}
 
 if 'RDS_DB_NAME' in os.environ:
     DATABASES = {
