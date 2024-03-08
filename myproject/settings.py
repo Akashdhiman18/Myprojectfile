@@ -95,7 +95,7 @@ DATABASES = {
 '''
 
 
-'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -106,10 +106,9 @@ DATABASES = {
         'PORT':'5432',
     },
 }
+
 '''
-print("Is it here")
 if 'RDS_DB_NAME' in os.environ:
-    print("DOES IT EVEN GET HERE???")
     DATABASES = {
             'default': {
                 'ENGINE':'django.db.backends.postgresql_psycopg2',
@@ -131,7 +130,7 @@ else:
             'PORT':'5432',
         },
     }
-
+'''
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
