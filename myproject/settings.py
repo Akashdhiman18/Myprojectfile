@@ -93,7 +93,7 @@ DATABASES = {
     }
 }
 '''
-
+'''
 DATABASES = {
         'default': {
             'ENGINE':'django.db.backends.postgresql_psycopg2',
@@ -104,7 +104,7 @@ DATABASES = {
             'PORT': os.environ['RDS_PORT'],
         }
     }
-
+'''
 '''
 DATABASES = {
     'default': {
